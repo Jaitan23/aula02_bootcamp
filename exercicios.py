@@ -10,12 +10,16 @@
 
 # 2. Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
 
-numero = float(input("Insira um número:"))
-resultado = numero % 5
-print("O resultado é:" , resultado)
-
+# numero = float(input("Insira um número:"))
+# resultado = numero % 5
+# print("O resultado é:" , resultado)
 
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
+
+N1 = int(input("Insira o primeiro número para multiplicação:"))
+N2 = int(input("Insira o segundo número para multilicação:"))
+resultado = print("O resultado da multiplicação é: ", N1 * N2)
+
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
 
