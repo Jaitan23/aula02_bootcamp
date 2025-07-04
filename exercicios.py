@@ -46,12 +46,18 @@
 
 # 7. Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
 
-Num_1 = float(input("Insira o número_01:"))
-Num_2 = float(input("Insira o número_02:"))
-resultado = (Num_1 + Num_2) / 2
-print("A media é:", resultado)
+# Num_1 = float(input("Insira o número_01:"))
+# Num_2 = float(input("Insira o número_02:"))
+# resultado = (Num_1 + Num_2) / 2
+# print("A media é:", resultado)
 
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
+
+Num1 = float(input("Insira a base:"))
+expoente = float(input("Insira o expoente:"))
+resultado = Num1 ** expoente
+print ("O resultado da potência é:", resultado)
+
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
 
