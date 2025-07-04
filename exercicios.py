@@ -10,7 +10,7 @@
 
 # 2. Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
 
-# numero = float(input("Insira um número:"))
+# numero = int(input("Insira um número:"))
 # resultado = numero % 5
 # print("O resultado é:" , resultado)
 
@@ -18,25 +18,32 @@
 
 # N1 = int(input("Insira o primeiro número para multiplicação:"))
 # N2 = int(input("Insira o segundo número para multilicação:"))
-# resultado = print("O resultado da multiplicação é: ", N1 * N2)
+# resultado = N1 * N2
+# print("O resultado da multiplicação é: ", resultado)
 
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
 
-N_1 = int(input("Insira o primeiro número:"))
-N_2 = int(input("Insira o segundo número:"))
-resultado = N_1 // N_2
-print("O resultado da divisão é:", resultado)
+# N_1 = int(input("Insira o primeiro número:"))
+# N_2 = int(input("Insira o segundo número:"))
+# resultado = N_1 // N_2
+# print("O resultado da divisão é:", resultado)
 
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
 
-Num = int(input("Insira um número:"))
-resultado = Num ** 2
-print("o quadrado do número informado é:", resultado)
+# Num = int(input("Insira um número:"))
+# resultado = Num ** 2
+# print("o quadrado do número informado é:", resultado)
 
 
 # #### Números de Ponto Flutuante (`float`)
 
 # 6. Escreva um programa que receba dois números flutuantes e realize sua adição.
+
+num1 = float(input("Insira numero_01:"))
+num2 = float(input("Insira numero_02:"))
+resultado = num1 + num2
+print("A soma dos números é:", resultado)
+
 # 7. Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
